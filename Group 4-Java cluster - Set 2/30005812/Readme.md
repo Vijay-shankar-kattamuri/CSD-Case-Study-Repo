@@ -45,15 +45,16 @@ CREATE TABLE Claim (
 
 ## Project Structure
 
-Insurance Management System
-|-- src
-      |-- insuranceMangementSystem
-           |-- DatabaseConnetion.java
-           |-- InsuranceManagementSystem.java
-           |-- Policy.java
-           |-- Customer.java
-           |-- Claim.java
+1. Insurance Management System
+
+   1.1 src
+       1.1.1 insuranceMangementSystem
+             1.1.1.1  DatabaseConnetion.java
+             1.1.1.2  InsuranceManagementSystem.java
+             1.1.1.3  Policy.java
+             1.1.1.4  Customer.java
+             1.1.1.5  Claim.java
            
-|-- lib
-     |-- mysql-connector-java-8.0.28
+   1.2 lib
+        1.2.1 mysql-connector-java-8.0.28
            
