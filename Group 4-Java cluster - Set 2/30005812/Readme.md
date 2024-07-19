@@ -47,13 +47,13 @@ CREATE TABLE Claim (
 
 Insurance Management System
 |-- src
-|     |-- insuranceMangementSystem
-|           |-- DatabaseConnetion.java
-|           |-- InsuranceManagementSystem.java
-|           |-- Policy.java
-|           |-- Customer.java
-|           |-- Claim.java
-|
-|    |-- lib
-|           |-- mysql-connector-java-8.0.28
+      |-- insuranceMangementSystem
+           |-- DatabaseConnetion.java
+           |-- InsuranceManagementSystem.java
+           |-- Policy.java
+           |-- Customer.java
+           |-- Claim.java
+           
+|-- lib
+     |-- mysql-connector-java-8.0.28
            
