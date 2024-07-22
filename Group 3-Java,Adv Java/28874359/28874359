@@ -1,1 +1,56 @@
+# Research Lab Data Management System
 
+## Overview
+
+This project is a console-based application for managing data in a sciences research lab. The application provides functionalities to manage experiments, samples, and researchers using Core Java, MySQL, and JDBC.
+
+## Features
+
+### Experiment Management
+- *Add a new experiment*
+- *View experiment details*
+- *Update experiment information*
+- *Delete an experiment*
+
+### Sample Management
+- *Add a new sample*
+- *View sample details*
+- *Update sample information*
+- *Delete a sample*
+
+### Researcher Management
+- *Add a new researcher*
+- *View researcher details*
+- *Update researcher information*
+- *Delete a researcher*
+
+## Database Schema
+
+### Experiment Table
+- experiment_id (Primary Key)
+- name
+- description
+- start_date
+- end_date
+
+### Sample Table
+- sample_id (Primary Key)
+- experiment_id (Foreign Key references Experiment Table)
+- name
+- type
+- quantity
+
+### Researcher Table
+- researcher_id (Primary Key)
+- name
+- email
+- phone_number
+- specialization
+
+## Setup
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- MySQL Server
+- MySQL Connector/J (JDBC Driver)
+- IntelliJ IDEA or any other Java IDE
